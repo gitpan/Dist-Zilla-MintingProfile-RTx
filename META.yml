@@ -17,6 +17,10 @@ no_index:
   directory:
     - inc
     - profiles
+requires:
+  Dist::Zilla: 0
+  Module::Install::RTx: 0
+  Module::Install::ReadmeFromPod: 0
 resources:
   license: http://opensource.org/licenses/gpl-license.php
-version: 0.01
+version: 0.02

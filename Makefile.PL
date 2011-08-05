@@ -7,4 +7,8 @@ readme_from 'lib/Dist/Zilla/MintingProfile/RTx.pm';
 license  'gplv2';
 install_share 'module' => 'Dist::Zilla::MintingProfile::RTx', 'profiles';
 
+requires 'Dist::Zilla';
+requires 'Module::Install::RTx';
+requires 'Module::Install::ReadmeFromPod';
+
 WriteAll;
