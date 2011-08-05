@@ -10,17 +10,31 @@ our $VERSION = '0.01';
 
 =head1 INSTALLATION 
 
-    How to install:
+=over
 
-    1. perl Makefile.PL
-    2. make
-    3. make install (may need root permissions)
-    4. Edit your /opt/rt3/etc/RT_SiteConfig.pm 
-        Set(@Plugins, qw({{$name}}));
-        or add {{$name}} to your existing @Plugins line
-    5. Clear your mason cache
-         rm -rf /opt/rt3/var/mason_data/obj
-    6. Restart your webserver
+=item perl Makefile.PL
+
+=item make
+
+=item make install
+
+May need root permissions
+
+=item Edit your /opt/rt4/etc/RT_SiteConfig.pm
+
+Add this line:
+
+    Set(@Plugins, qw({{$name}}));
+
+or add C<{{$name}}> to your existing C<@Plugins> line.
+
+=item Clear your mason cache
+
+    rm -rf /opt/rt4/var/mason_data/obj
+
+=item Restart your webserver
+
+=back
 
 =head1 AUTHOR
 

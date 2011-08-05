@@ -6,4 +6,5 @@ all_from 'lib/{{$path}}.pm';
 readme_from 'lib/{{$path}}.pm';
 license  'gplv2';
 
+sign;
 WriteAll;
