@@ -40,6 +40,13 @@ or add C<{{$name}}> to your existing C<@Plugins> line.
 
 {{ join '', @{ $dist->authors }  }}
 
+=head1 BUGS
+
+All bugs should be reported via
+L<http://rt.cpan.org/Public/Dist/Display.html?Name={{$dist->name}}>
+or L<bug-{{$dist->name}}@rt.cpan.org>.
+
+
 =head1 LICENCE AND COPYRIGHT
 
 {{ $dist->license->notice }}

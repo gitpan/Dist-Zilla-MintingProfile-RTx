@@ -1,0 +1,12 @@
+0.04
+    Anchor the dist-name tarball ignore so it doesn't catch Callbacks
+    Include links to rt.cpan.org
+
+0.03
+    PODify the Module->README step
+
+0.02
+    Update dependencies
+
+0.01
+    Initial Release
