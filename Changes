@@ -1,3 +1,7 @@
+0.05
+    Ignore MYMETA files
+    We use GPLv2 by default because it is RT's license
+    Add a secondary profile that includes initdb instructions
 0.04
     Anchor the dist-name tarball ignore so it doesn't catch Callbacks
     Include links to rt.cpan.org

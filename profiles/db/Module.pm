@@ -8,7 +8,7 @@ our $VERSION = '0.01';
 
 {{$dist->name}} - [One line description of module's purpose here]
 
-=head1 INSTALLATION 
+=head1 INSTALLATION
 
 =over
 
@@ -19,6 +19,16 @@ our $VERSION = '0.01';
 =item make install
 
 May need root permissions
+
+=item make initdb
+
+Only run this the first time you install this module.
+
+If you run this twice, you may end up with duplicate data
+in your database.
+
+If you are upgrading this module, check for upgrading instructions
+in case changes need to be made to your database.
 
 =item Edit your /opt/rt4/etc/RT_SiteConfig.pm
 

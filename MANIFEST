@@ -13,6 +13,10 @@ lib/Dist/Zilla/MintingProfile/RTx.pm
 Makefile.PL
 MANIFEST			This list of files
 META.yml
+profiles/db/Module.pm
+profiles/db/profile.ini
+profiles/db/skel/gitignore
+profiles/db/skel/Makefile.PL
 profiles/default/Module.pm
 profiles/default/profile.ini
 profiles/default/skel/gitignore

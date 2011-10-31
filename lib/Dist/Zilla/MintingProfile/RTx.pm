@@ -6,7 +6,7 @@ use Moose;
 with 'Dist::Zilla::Role::MintingProfile::ShareDir';
  
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 =head1 NAME
 
@@ -15,7 +15,12 @@ Dist-Zilla-MintingProfile-RTx - Basic Minting Profile for RTx modules
 =head1 USAGE
 
     dzil setup # it'll use your author and license info
+
     dzil new -P RTx RT-Extension-DoesMagicStuff
+
+    # will include a make initdb step in your README
+    # you still need to provide a etc/initialdata file
+    dzil new -P RTx -p db RT-Extension-MagicAndDB
 
 Stubs in a proper Makefile.PL and README
 
