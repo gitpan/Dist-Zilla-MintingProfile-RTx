@@ -52,9 +52,10 @@ or add C<{{$name}}> to your existing C<@Plugins> line.
 
 =head1 BUGS
 
-All bugs should be reported via
-L<http://rt.cpan.org/Public/Dist/Display.html?Name={{$dist->name}}>
-or L<bug-{{$dist->name}}@rt.cpan.org>.
+All bugs should be reported via email to
+L<bug-{{$dist->name}}@rt.cpan.org|mailto:bug-{{$dist->name}}@rt.cpan.org>
+or via the web at
+L<rt.cpan.org|http://rt.cpan.org/Public/Dist/Display.html?Name={{$dist->name}}>.
 
 
 =head1 LICENSE AND COPYRIGHT

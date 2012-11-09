@@ -1,3 +1,7 @@
+0.06
+    Stop ignoring README because it makes github prettier
+    Fix the mailto: bug link (and make it the preferred reporting method)
+    Ignore more test cruft
 0.05
     Ignore MYMETA files
     We use GPLv2 by default because it is RT's license
