@@ -12,15 +12,15 @@ our $VERSION = '0.01';
 
 =over
 
-=item perl Makefile.PL
+=item C<perl Makefile.PL>
 
-=item make
+=item C<make>
 
-=item make install
+=item C<make install>
 
 May need root permissions
 
-=item make initdb
+=item C<make initdb>
 
 Only run this the first time you install this module.
 
@@ -30,7 +30,7 @@ in your database.
 If you are upgrading this module, check for upgrading instructions
 in case changes need to be made to your database.
 
-=item Edit your /opt/rt4/etc/RT_SiteConfig.pm
+=item Edit your F</opt/rt4/etc/RT_SiteConfig.pm>
 
 Add this line:
 

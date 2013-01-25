@@ -6,7 +6,7 @@ use Moose;
 with 'Dist::Zilla::Role::MintingProfile::ShareDir';
  
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 =head1 NAME
 

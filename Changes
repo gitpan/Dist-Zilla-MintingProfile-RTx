@@ -1,3 +1,6 @@
+0.07
+    Wrap formatting codes around the installation steps
+
 0.06
     Stop ignoring README because it makes github prettier
     Fix the mailto: bug link (and make it the preferred reporting method)
