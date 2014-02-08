@@ -8,6 +8,17 @@ our $VERSION = '0.01';
 
 {{$dist->name}} - [One line description of module's purpose here]
 
+=head1 DESCRIPTION
+
+[Why would someone install this extension? What does it do? What problem
+does it solve?]
+
+=head1 RT VERSION
+
+Works with RT [What versions of RT is this known to work with?]
+
+[Make sure to use requires_rt and rt_too_new in Makefile.PL]
+
 =head1 INSTALLATION 
 
 =over
@@ -22,7 +33,11 @@ May need root permissions
 
 =item Edit your F</opt/rt4/etc/RT_SiteConfig.pm>
 
-Add this line:
+If you are using RT 4.2 or greater, add this line:
+
+    Plugin('{{$name}}');
+
+For RT 3.8 and 4.0, add this line:
 
     Set(@Plugins, qw({{$name}}));
 

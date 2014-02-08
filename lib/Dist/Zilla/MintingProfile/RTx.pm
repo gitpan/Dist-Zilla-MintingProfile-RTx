@@ -6,7 +6,7 @@ use Moose;
 with 'Dist::Zilla::Role::MintingProfile::ShareDir';
  
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 =head1 NAME
 
@@ -33,7 +33,7 @@ Kevin Falcone <falcone@bestpractical.com>
 
 =head1 LICENCE AND COPYRIGHT
 
-Copyright (c) 2011, Best Practical Solutions, LLC.  All rights reserved.
+Copyright (c) 2011-2014, Best Practical Solutions, LLC.  All rights reserved.
 
 This module is free software; you can redistribute it and/or
 modify it under the terms of version 2 of the GNU General Public License.

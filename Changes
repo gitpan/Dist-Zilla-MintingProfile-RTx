@@ -1,23 +1,30 @@
+0.08 2014-02-07
+ - Suggest Plugin() for 4.2 installs
+ - Encourage the author to write a SYNOPSIS and some VERSION information
+
 0.07
-    Wrap formatting codes around the installation steps
+ - Wrap formatting codes around the installation steps
 
 0.06
-    Stop ignoring README because it makes github prettier
-    Fix the mailto: bug link (and make it the preferred reporting method)
-    Ignore more test cruft
+ - Stop ignoring README because it makes github prettier
+ - Fix the mailto: bug link (and make it the preferred reporting method)
+ - Ignore more test cruft
+
 0.05
-    Ignore MYMETA files
-    We use GPLv2 by default because it is RT's license
-    Add a secondary profile that includes initdb instructions
+ - Ignore MYMETA files
+ - We use GPLv2 by default because it is RT's license
+ - Add a secondary profile that includes initdb instructions
+
 0.04
-    Anchor the dist-name tarball ignore so it doesn't catch Callbacks
-    Include links to rt.cpan.org
+ - Anchor the dist-name tarball ignore so it doesn't catch Callbacks
+ - Include links to rt.cpan.org
 
 0.03
-    PODify the Module->README step
+ - PODify the Module->README step
 
 0.02
-    Update dependencies
+ - Update dependencies
 
 0.01
-    Initial Release
+ - Initial Release
+
