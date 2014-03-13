@@ -1,3 +1,6 @@
+0.09 2014-03-13
+ - Include a default Changes file
+
 0.08 2014-02-07
  - Suggest Plugin() for 4.2 installs
  - Encourage the author to write a SYNOPSIS and some VERSION information
