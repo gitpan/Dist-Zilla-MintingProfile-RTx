@@ -7,7 +7,7 @@ with 'Dist::Zilla::Role::MintingProfile::ShareDir';
 
 use 5.008003;
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 =head1 NAME
 
