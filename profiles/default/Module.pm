@@ -19,7 +19,7 @@ Works with RT [What versions of RT is this known to work with?]
 
 [Make sure to use requires_rt and rt_too_new in Makefile.PL]
 
-=head1 INSTALLATION 
+=head1 INSTALLATION
 
 =over
 
@@ -37,7 +37,7 @@ If you are using RT 4.2 or greater, add this line:
 
     Plugin('{{$name}}');
 
-For RT 3.8 and 4.0, add this line:
+For RT 4.0, add this line:
 
     Set(@Plugins, qw({{$name}}));
 
@@ -58,10 +58,12 @@ or add C<{{$name}}> to your existing C<@Plugins> line.
 =head1 BUGS
 
 All bugs should be reported via email to
-L<bug-{{$dist->name}}@rt.cpan.org|mailto:bug-{{$dist->name}}@rt.cpan.org>
-or via the web at
-L<rt.cpan.org|http://rt.cpan.org/Public/Dist/Display.html?Name={{$dist->name}}>.
 
+    L<bug-{{$dist->name}}@rt.cpan.org|mailto:bug-{{$dist->name}}@rt.cpan.org>
+
+or via the web at
+
+    L<rt.cpan.org|http://rt.cpan.org/Public/Dist/Display.html?Name={{$dist->name}}>.
 
 =head1 LICENSE AND COPYRIGHT
 

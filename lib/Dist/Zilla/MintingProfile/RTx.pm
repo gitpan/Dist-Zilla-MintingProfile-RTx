@@ -4,9 +4,10 @@ package Dist::Zilla::MintingProfile::RTx;
 
 use Moose;
 with 'Dist::Zilla::Role::MintingProfile::ShareDir';
- 
 
-our $VERSION = '0.09';
+use 5.008003;
+
+our $VERSION = '0.10';
 
 =head1 NAME
 

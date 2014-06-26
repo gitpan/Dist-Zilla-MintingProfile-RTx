@@ -1,3 +1,10 @@
+0.10 2014-06-26
+ - Remove mentions of RT 3.8, which is no longer supported
+ - Default to being compat with >= 4.0, < 4.4
+ - Force bugtracking links to not wrap
+ - Omit all_from and readme_from, which Module::Install::RTx 0.34_04 and
+   above include in RTx() by default
+
 0.09 2014-03-13
  - Include a default Changes file
 
