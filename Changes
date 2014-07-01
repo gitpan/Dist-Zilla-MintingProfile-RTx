@@ -1,3 +1,8 @@
+0.12 2014-07-01
+ - Default to using modules@bestpractical.com as the author, not the
+   individual author
+ - Add a github repository pointer to the generated META.yml
+
 0.11 2014-06-27
  - Actually default to 4.0 compat; version 0.10 documented installation
    steps for 4.0, but the Makefile.PL required 4.2.0 or higher.

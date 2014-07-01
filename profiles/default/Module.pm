@@ -53,7 +53,7 @@ or add C<{{$name}}> to your existing C<@Plugins> line.
 
 =head1 AUTHOR
 
-{{ join '', @{ $dist->authors }  }}
+Best Practical Solutions, LLC E<lt>modules@bestpractical.comE<gt>
 
 =head1 BUGS
 
